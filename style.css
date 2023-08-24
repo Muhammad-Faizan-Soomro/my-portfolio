@@ -131,6 +131,7 @@ h1 {
     margin-top: 70px;
     margin-left: 100px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .skills span {
@@ -142,6 +143,7 @@ h1 {
     margin-right: 50px;
     grid-row: span 2;
     text-align: justify;
+    font-size: 20px;
 }
 
 .about h2 {
@@ -155,12 +157,12 @@ h1 {
 
 @media (max-width: 1024px) {
     h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .card-2 {
         width: 800px;
-        height: 900px;
+        height: 1200px;
     }
 
     .grid-container {
@@ -174,7 +176,12 @@ h1 {
         margin-top: 90px;
     }
 
+    .skills {
+        font-size: 30px;
+    }
+
     .about {
+        font-size: 30px;
         margin-left: 90px;
         margin-right: 90px;
         grid-row-start: 2;
